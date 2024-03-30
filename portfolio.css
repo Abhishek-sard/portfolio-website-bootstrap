@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: orange;
+    color: white;
+    padding: 12px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    
+
+}
+ul{
+    display: flex;
+    align-items: center;
+    padding: 22px;
+}
+ul li{
+    list-style-type: none;
+    
+}
+ul li a{
+    text-decoration: none;
+    margin-inline: 20px;
+    color: white;
+    font-size: 20px;
+}
+ul li a:hover{
+    color: black;
+    cursor: pointer;
+}
+.logo{
+    text-align: center;
+}
